@@ -1,0 +1,245 @@
+
+@media (max-width:884px){
+    header{
+        padding: 17px 25px;
+    }
+    .logo img{
+        width: 104px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menuBlock{
+        position: relative;
+    }
+    .burger{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .menuBlock{
+        display: block;
+    }
+    .burger span{
+        width: 20px;
+        height: 3px;
+        background: #737373;
+        opacity: 0.6;
+        border-radius: 20px;
+        margin-bottom: 5px;
+    }
+
+    .menuMedia{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #252B42;
+        border-radius: 5px;
+        padding: 10px;
+        position: absolute;
+        left: -50px;
+        display: none;
+    }
+    .menuMedia a{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 19px;
+        text-decoration: none;
+
+        /* text */
+        color: #FFFFFF;
+
+    }
+
+    .menuMedia a:hover{
+        color: #FA4A0C;
+    }
+
+    .menuBlock:hover .menuMedia{
+        display: block;
+    }
+    .menuBlock:hover .burger span{
+        background: #FA4A0C;
+    }
+    .block1{
+        background: none;
+    }
+    .foodApp h4{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        text-align: center;
+        letter-spacing: 0.1px;
+
+        /* second text */
+        color: #737373;
+    }
+    .foodApp h1{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        /* or 118% */
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* text */
+        color: #252B42;
+    }
+    .foodApp p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        /* or 158% */
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* second text */
+        color: #737373;
+    }
+
+    .storeBtns{
+        flex-direction: column;
+    }
+
+    .storeBtn2{
+        border: 1px solid #FA4A0C;
+        color: #FA4A0C;
+    }
+
+    .phones img{
+        width: 180px;
+    }
+    
+    .line{
+        display: none;
+    }
+
+    .block2Title h2{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height, or 150% */
+        text-align: center;
+        letter-spacing: 0.1px;
+
+        color: #000000;
+    }
+
+    .medium{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height, or 150% */
+        text-align: center;
+        letter-spacing: 0.1px;
+
+        color: #FA4A0C;
+    }
+
+    .large{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        /* or 142% */
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* text */
+        color: #252B42;
+    }
+
+    .small{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        /* or 158% */
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* second text */
+        color: #737373;
+    }
+
+    .marg{
+        margin: 20px 37px;
+    }
+
+    .lineMedia{
+        display: block;
+    }
+    .block2Bottom{
+        flex-direction: column-reverse;
+    }
+    .block3{
+        flex-direction: column;
+    }
+
+    .block4{
+        flex-direction: column-reverse;
+    }
+
+    .block5{
+        background: #252B42;
+        padding: 120px 55px;
+    }
+    .downloadTheApp{
+        padding: 0;
+    }
+
+    .downloadTheApp h1{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        /* or 142% */
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* Light text */
+        color: #FFFFFF;
+    }
+
+    .downloadTheApp p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        /* or 158% */
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* Light Gray */
+        color: #BDBDBD;
+    }
+
+    footer .logo{
+        display: none;
+    }
+
+
+    footer{
+        flex-direction: column;
+        padding: 53px;
+    }
+}

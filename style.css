@@ -1,0 +1,493 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu a{
+    margin-left: 100px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration: none;
+
+    /* text */
+    color: #252B42;
+
+}
+
+.menu a:hover{
+    color: #FA4A0C;
+}
+
+.block1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(img/bg1.png) no-repeat;
+}
+
+.foodApp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 60px;
+}
+
+.foodApp h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    color: #F7F7F7;
+}
+
+.foodApp h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    /* or 138% */
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+}
+
+.foodApp p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    /* identical to box height, or 158% */
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #F7F7F7;
+}
+
+.storeBtns{
+    display: flex;
+    align-items: center;
+}
+
+.storeBtn1{
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.1px;
+    border: none;
+    /* Light text */
+    color: #FFFFFF;
+    padding: 16px 58px;
+    margin: 20px;
+    outline: none;
+}
+
+.storeBtn2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.1px;
+
+    color: #FFFFFF;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    background: none;
+    padding: 16px 58px;
+    margin: 20px;
+    outline: none;
+}
+
+button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.phones{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.phones img{
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+}
+
+.line{
+    width: 60%;
+    height: 3px;
+    background: #E4E4E4;
+}
+
+.lineMedia{
+    display: none;
+    width: 95%;
+    height: 3px;
+    background: #E4E4E4;
+}
+
+.block2Title h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    /* identical to box height, or 82% */
+    letter-spacing: 0.1px;
+
+    color: #000000;
+
+    opacity: 0.8;
+}
+
+.block2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block2Bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 140px;
+}
+
+.block2Left img{
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+}
+
+.block2Left{
+    margin: 0px 50px;
+}
+
+.block2Right{
+    margin: 0px 50px;
+}
+
+.block2Right h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.1px;
+
+    color: #FA4A0C;
+}
+
+.block2Right h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    /* or 142% */
+    letter-spacing: 0.2px;
+
+    /* text */
+    color: #252B42;
+}
+
+.block2Right p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+    letter-spacing: 0.2px;
+
+    /* second text */
+    color: #737373;
+}
+
+.block3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 140px;
+}
+
+.block3Left{
+    margin: 0px 50px;
+}
+
+.block3Right{
+    margin: 0px 50px;
+}
+
+.block3Left h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.1px;
+
+    color: #FA4A0C;
+}
+
+.block3Left h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    /* or 142% */
+    letter-spacing: 0.2px;
+
+    /* text */
+    color: #252B42;
+}
+
+.block3Left p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+    letter-spacing: 0.2px;
+
+    /* second text */
+    color: #737373;
+}
+
+.block3Right img{
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+}
+
+.block4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 140px;
+}
+
+.block4Left{
+    margin: 0px 50px;
+}
+
+.block4Right{
+    margin: 0px 50px;
+}
+
+.block4Left img{
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+}
+
+.block4Right h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.1px;
+
+    color: #FA4A0C;
+}
+
+.block4Right h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    /* or 142% */
+    letter-spacing: 0.2px;
+
+    /* text */
+    color: #252B42;
+}
+
+.block4Right p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+    letter-spacing: 0.2px;
+
+    /* second text */
+    color: #737373;
+}
+
+.block5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(img/bg2.png) no-repeat;
+    padding: 130px;
+}
+
+.downloadTheApp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 60px;
+}
+
+.downloadTheApp h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    /* identical to box height, or 142% */
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* Light text */
+    color: #FFFFFF;
+}
+
+.downloadTheApp p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    /* identical to box height, or 158% */
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    color: #FFFFFF;
+}
+
+.storeBtns2{
+    display: flex;
+    align-items: center;
+}
+
+.storeBtn3{
+    background: #FA4A0C;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    letter-spacing: 0.2px;
+    border: none;
+    /* Light text */
+    color: #FFFFFF;
+    padding: 18px 31px;
+    outline: none;
+    margin: 20px;
+}
+
+.storeBtn4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    letter-spacing: 0.2px;
+
+    /* Light text */
+    color: #FFFFFF;
+    background: none;
+    border: 1px solid #FFFFFF;
+    padding: 18px 45px;
+    outline: none;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer{
+    padding: 53px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social svg{
+    margin: 30px;
+}
+
+.footerRight p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    text-align: right;
+    letter-spacing: 0.1px;
+
+    /* second text */
+    color: #5C5C5C;
+}
+
+.social svg path:hover{
+    fill: gray;
+    cursor: pointer;
+}
+
+.burger{
+    display: none;
+}
+
+.menuMedia{
+    display: none;
+}
+
+.menuBlock{
+    display: none;
+}
